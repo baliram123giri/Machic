@@ -13,7 +13,7 @@ const FooterBottom = (props: Props) => {
 
     return (
         <div className='container py-10'>
-            <div className='flex items-center justify-between'>
+            <div className='flex flex-wrap gap-4 items-center justify-between'>
                 <Image src={Logo} width={180} height={43} alt='' />
                 <div className="social-links">
                     <ul className='flex gap-4 items-center'>

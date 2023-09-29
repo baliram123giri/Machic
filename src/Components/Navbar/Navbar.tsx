@@ -26,7 +26,7 @@ const Navbar = (props: Props) => {
         </Drawer>
       </div>
       <NavTop />
-      <div className="middle py-3 md:py-0  md:mt-5 flex justify-between items-center shadow md:shadow-none">
+      <div className="middle py-3 md:py-0  md:mt-5 flex justify-between items-center px-3  shadow md:shadow-none">
         <div onClick={DrawerHandler} className='text-4xl md:hidden cursor-pointer'>
           <MdMenu />
         </div>
