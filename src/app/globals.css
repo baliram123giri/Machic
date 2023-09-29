@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+  max-height: calc(60vh - 80px) !important;
+}
