@@ -40,12 +40,3 @@ export default function RootLayout({
   )
 }
 
-export async function getServerSideProps() {
-  const res = await fetch('api')
-  const { result } = await res.json()
-  return {
-    props: {
-      data: result,
-    }
-  }
-}
